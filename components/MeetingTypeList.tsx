@@ -15,7 +15,7 @@ const MeetingTypeList = () => {
                 img="/icons/add-meeting.svg"
                 title="New Meeting"
                 description="Start an instant meeting"
-                handleClick={() => setMeetingState('isJoiningMeeting')}
+                handleClick={() => setMeetingState('isInstantMeeting')}
                 className="bg-peach-1"
             />
             <HomeCard 
@@ -46,7 +46,7 @@ const MeetingTypeList = () => {
                 title="Start an Instant Meeting"
                 className="text-center"
                 buttonText="Start Meeting"
-                handleClic={createMeeting}
+                handleClick={createMeeting}
             />
         </section>
     )
